@@ -1,0 +1,79 @@
+contactform{
+    height: 1000px;
+    width: 100%;
+   
+}
+.contact-header{
+    height: 300px;
+    background-image:url(images/contact\ us\ banner1.jpg);
+    background-position: center;
+    background-size: cover;
+    color: white;
+    
+}
+.contact-header h1{
+    text-align: center;
+    font-weight: 900px;
+    padding-top: 100px;
+    font-size: 80px;
+    
+}
+.contact-details{
+    height: 500px;
+    width: 100%;
+    float: left;
+    
+}
+
+.contact-icon-det {
+    margin-bottom: 40px;
+    display: flex;
+    gap: 10px;
+}     
+.container p,i{
+   padding-left: 50px;
+}
+ h2{
+    padding-top: 40px;
+    padding-left: 50px;
+}  
+
+.contact-icon-det i{
+   padding-top: 5px;
+}  
+/*FROM ROW*/ 
+.contact-form-details{
+    height: 500px;
+    width: 80%;
+    float: left;
+    box-shadow: 0px 5px 20px black;
+}
+
+
+.from-control{
+    width: 100%;
+    align-items: center;
+    opacity: 1;
+    padding: 15px;
+    margin-bottom: 15px; 
+
+
+    border: 1px solid #d9d9d9;
+    background: #d2efd7;
+}
+
+#submit{
+    margin-left: 55px;
+    width: 80%;
+    height: 50px;
+    background-color: rgb(19, 237, 18);
+    border:none;
+    transition: 1s;
+}    
+#submit:hover{
+    transform: scale(1.1,1.1);
+}
+.map{
+    height: 400px;
+    width: 100%;
+}

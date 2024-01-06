@@ -1,0 +1,305 @@
+
+header{
+    position: fixed;
+    width: 100%;
+    justify-content: space-between;
+    background:transparent;
+    backdrop-filter: blur(20px);
+    
+     align-items: center;
+     display: flex;
+     
+}
+.navbar{
+    padding-left:x 100px;
+    padding:y 0.5rem
+}
+.navbar a{
+  
+    padding: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: rgb(4, 4, 4);
+}
+/*first row LOGO IMAGE*/
+header img{
+height: 50px;
+width: 200px;
+float: left;
+margin: 15px;
+margin-left: 50px;
+}
+.close-btn{
+    font-size: 30px;
+    display:none ;
+    cursor: pointer;
+}
+.menu-btn{
+    font-size: 30px;
+    display: none;
+    cursor: pointer;
+}
+.join-button{
+    background-color: green;
+    text-align: center;
+    justify-items: center;
+    width: 120px;
+    height: 50px;
+    border: none;
+    margin-right: 30px;
+    transition: 1s;
+    
+}
+.join-button:hover{
+    transform: scale(1.1,1.1);
+    box-shadow: 0px 5px 20px black;
+}
+.join-button a{
+    color: white;
+    text-decoration: none;
+
+}
+.popup-menu{
+    width:  200px;
+    height: 0px;
+    background-color: rgb(169, 228, 189);
+
+    position: absolute;
+    right: 0px;
+    top:80px;
+   cursor: pointer;
+    display: none;
+    list-style-type: none;
+    overflow: hidden;
+    transition: height 02s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+.popup-menu.open{
+    height:300px ;
+    
+} 
+   
+
+.popup-menu li{
+    padding: 10px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+  
+    
+    
+} 
+.popup-menu a{
+    color: rgb(24, 21, 21);
+    text-decoration: none;
+    transition: .6s;
+
+}   
+.popup-menu a:hover{
+    transform: scale(1.1,1.1);
+    text-shadow: 0px 5px 20px black;
+}
+    
+
+@media (max-width:847px){
+   
+    .navbar a{
+        display: none;
+    }
+    .menu-btn{
+        display: block;
+        padding-right: 20px;
+    }
+    .join-button{
+        display: none;
+    }
+    .popup-menu{
+        display: block;
+        position: fixed;
+    }
+     .popup-menu .close-btn  {
+        display: block;
+        float: right;
+    }
+    .popup-menu .join-button{
+        display: block;
+        margin-left: 35px;
+        
+        
+    }
+    
+}
+@media (max-width:500px){
+     .popup-menu{
+        width: 100%;
+        margin: 4px;
+     }
+}
+
+/*second row NAVIGATION*/
+
+/*.navs{
+    display: flex;
+    justify-content: center;
+    position: sticky;
+
+}
+.navs ul{
+    list-style-type: none;
+    display: flex;
+    width: 90vw;
+    justify-content: space-between;
+    padding-top: 40px;
+}
+.navs li a{
+    text-decoration: none;
+    color: black;
+}
+.navs ul li{
+    cursor: pointer;
+    position: relative;
+    text-align: center;
+   
+}
+.navs li.active::after{
+    position: absolute;
+    content: "";
+    height: 3px;
+    width: 100%;
+    background-color: black;
+    left: 0;
+    bottom: -2px;
+    border-radius: 20px;
+    animation: onclick 1s linear;
+}*/
+@keyframes onclick{
+    from {
+        width: 0;
+    }
+    to{
+        width: 100%;
+    }
+}
+
+
+
+/*thired row join button*/
+/*
+.join-button{
+width: 100px;
+height: 40px;
+background-color: rgb(19, 237, 19);
+margin-top: 20px;
+
+margin-left: 100px;
+border: none;
+ color: black;
+text-align: center;
+transition: 1s;
+}   
+.join-button a{
+    text-decoration:  none;
+    color: white;
+}
+.join-button:hover{
+transform: scale(1.1,1.1);
+}
+.popup-navbar{
+    height: 300px;
+    width:200px;
+    right: 0px;
+    justify-items: center;
+    position: absolute;
+    background-color: aqua;
+
+}
+
+{
+    
+    ul,li ,.navs{
+      display: none;
+      width: 100%;
+    }
+    a,.join-button{
+
+        display: none;
+    }
+    button, li,a,.popup-navbar{
+        display:block ;
+        
+        
+    }
+
+    .logo{
+        width: 100% ;
+    }
+     .banner-text{
+        font-weight: 500px;
+        font-size: 40px;
+        display: flex;
+        word-spacing: 5px;
+     }
+     .banner-text span{
+        font-size: 50px;
+     }
+}
+@media (max-width:575px){
+    .b2{
+        width:100% ;
+        height: 200px;
+        display:flex ;
+        flex-direction: column-reverse;
+    }
+    
+}
+ @media (max-width:575px){
+    .b1{
+        width:100% ;
+        height: 200px;
+        display:flex ;
+        flex-direction: column-reverse;
+    }   
+    
+
+
+ }
+@media (max-width: 540px),(max-width:309px){
+    .banner2-img{
+        width: 100%;
+    }   
+        
+    
+    
+    .footer-logo-img,.footer-nav-icon,.footer-navs,.add{
+        width:100%;
+        justify-content: center;
+        justify-items: center;
+        display:flex ;
+        margin-left: 0px;
+       margin-right: 0px;
+    
+    }
+    .footer-navs ul li{
+        cursor: pointer;
+        padding-left: 2px;
+        text-align: center;
+       display: flex;
+       justify-content: space-around;
+       margin-left: 0px;
+       margin-right: 0px;
+        
+       
+    }
+    .navbars{
+        display: flex;
+        width:100%;
+        
+    }    
+
+    
+       
+    
+    
+   
+}

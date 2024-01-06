@@ -1,0 +1,536 @@
+/*NAVIGATION BAR*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: "Poppins", sans-serif;
+    
+  }
+header{
+    position: fixed;
+    width: 100%;
+    justify-content: space-between;
+    background:transparent;
+    backdrop-filter: blur(20px);
+    
+     align-items: center;
+     display: flex;
+     
+}
+.navbar{
+    right: 150px;
+}
+.navbar a{
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: rgb(4, 4, 4);
+}
+/*first row LOGO IMAGE*/
+header img{
+height: 50px;
+width: 200px;
+float: left;
+margin: 15px;
+margin-left: 50px;
+}
+.close-btn{
+    font-size: 30px;
+    display:none ;
+    cursor: pointer;
+}
+.menu-btn{
+    margin-right: 15px;
+    font-size: 30px;
+    display: none;
+    cursor: pointer;
+    
+}
+.join-button{
+    background-color: green;
+    text-align: center;
+    justify-items: center;
+    width: 100px;
+    height: 50px;
+    border: none;
+    margin-right: 50px;
+    transition: 1s;
+    
+}
+.join-button:hover{
+    transform: scale(1.1,1.1);
+    box-shadow: 0px 5px 20px black;
+}
+.join-button a{
+    color: white;
+    text-decoration: none;
+
+}
+.popup-menu{
+    width:  300px;
+    height: 0px;
+    background-color: rgb(176, 219, 176) ;
+    backdrop-filter: blur(30px);
+
+    position: absolute;
+    right: 0px;
+    top:80px;
+   cursor: pointer;
+    display: none;
+    list-style-type: none;
+    overflow: hidden;
+    transition: height 02s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+.popup-menu.open{
+    height:300px ;
+}     
+.popup-menu li{
+    padding: 10px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+} 
+.popup-menu a{
+    font-weight: 500px;
+    gap: 5px;
+    color: white;
+    text-decoration: none;
+    transition: .6s;
+}   
+.popup-menu a:hover{
+    background-color: rgb(114, 188, 114) ;
+   padding: 10px;
+    transform: scale(1.1,1.1);
+    text-shadow: 0px 5px 20px black;
+}
+.popup-menu button{
+    color:white;
+    background-color: rgb(21, 234, 21);
+    border: none;
+  width: 100px;
+    height: 40px;
+    transition: .6s;
+
+}
+.popup-menu button:hover{
+    padding: 5px;
+    transform: scale(1.1,1.1);
+}
+.pop-j-btn a{
+   color: brown;
+    border-radius: 10px;
+    border:2px solid black ;
+    background-color: rgb(21, 18, 15);
+}
+/*RESPONSIVE NAVIGATION BAR*/
+@media (max-width:847px){
+    .navbar a{
+        display: none;
+    }
+    .menu-btn{
+        display: block;
+        padding-right: 20px;
+    }
+    .join-button{
+        display: none;
+    }
+    .popup-menu{
+        display: block;
+        position: fixed;
+    }
+     .popup-menu .close-btn  {
+        display: block;
+        float: right;
+    }
+    .popup-menu .join-button{
+        display: block;
+        margin-left: 35px;
+    }
+    
+}
+@media (max-width:500px){
+     .popup-menu{
+        width: 100%;
+        margin: 4px;
+     }
+}
+
+/*HOME PAGE BANNER*/
+.banner{
+    background-image: url(images/course\ bg2.jpg);
+   
+    height: 600px;
+     background-position: center;
+    background-size: cover;
+    text-align: left;
+    display: flex;
+    justify-items: center;
+}  
+.banner-text{
+    color: white;
+    padding-top:150px;
+    padding-bottom: 0px;
+    font-size: 55px;
+    font-weight: 900;
+    margin-left: 30px;
+    font-style: initial;
+}
+.banner span{
+    font-size: 80px;
+    color: aqua;
+}   
+ /*HOW DOSE IT WORK BOXS*/
+.banner-head2{
+    text-align: center;
+    color: black;
+    font-size:60px ;
+    font-weight: 500;
+    font-family:  sans-serif;
+} 
+/*HOW DOSE IT WORK BANNEER IMAGE*/
+.banner2-img{
+    float: left;
+    border: none;
+    height: 420px;
+    margin-top: 70px;
+   background-image: url(images/how\ dose\ it\ work.jpg);
+   background-position: center;
+   background-size: cover;
+} 
+.banner2-img img{
+    height:420px;
+    width: 632px;
+    display: flex;
+    margin-left: 0px;
+    margin-top: 0px;
+}  
+
+/*HOW DOSE IT WORK BOXS*/
+
+.detailboxsdiv{
+    float: right;
+    height: 420px;
+ } 
+ .b1{
+    float: left;
+    height: 420px;
+    display: flex;
+ }
+ .b2{
+    float: left;
+    height: 420px;
+    display: flex;
+ }   
+ .box1{
+    width: 300px;
+    height: 200px;
+    display: flex;
+    transition: .5S;
+ }
+ .box2{
+    width: 300px;
+    height: 200px;
+    display: flex;
+    transition: .5S;
+ }
+ .box2:hover{
+    box-shadow: 5px 5px 5px rgb(74, 74, 74);
+ }
+ .box1:hover{
+    box-shadow: 5px 5px 5px rgb(74, 74, 74);
+ }
+ .box1{   
+    border-radius: 100px 10px 0px 10px;
+    border: 2px solid black;
+    cursor: pointer;
+    margin-left: 10px;
+    margin-top: 10px;
+    display: flex;
+}
+ .box2{
+    float: right;
+    margin-right: 10px;
+    margin-top: 215px;
+    border-radius: 0px 10px 100px 10px;
+    border: 2px solid black;
+    cursor: pointer;
+    display: flex;
+ }
+ .box1 img{
+   height: 100px;
+   width: 100px;
+   margin-top: 50px;
+  
+}
+.box1 b{
+    padding-top: 130px;
+    font-size: 20px;
+    font-weight: 900px;
+}   
+.box2 img{
+    height: 100px;
+    width: 100px;
+    float: right;
+    margin-top: 50px;
+ } 
+ .box2 b{
+    padding-left: 5px;
+    padding-top: 20px;
+    font-size: 20px;
+    font-weight: 900px;
+    
+}
+/*FOOTER NAVBAR*/
+.footer-logo-img{
+    justify-content: center;
+    height: 100px;
+    display: flex;
+}
+.footer-logo-img img {
+    height: 50px;
+    width: 200px;
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+.footer-navs{
+    height: 50px;
+    display: flex;
+}
+.footer-navs ul{
+    list-style-type: none;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+.footer-navs ul li{
+    cursor: pointer;
+    position: relative;
+    text-align: center;
+    padding-left: 50px;
+}
+.footer-navs li a{
+    text-decoration: none;
+    color: black;
+}
+.footer-navs li a:hover{
+    color:rgb(19, 237, 19); ;
+}
+
+/*FOOTER ICON*/
+
+.footer-nav-icon{
+    height: 40px;
+    width: 100px;
+    display: flex;
+}
+.footer-nav-icon ul{
+    list-style-type: none;
+    display: flex;
+    width: 100%;
+    justify-content:  center;
+    
+    padding-top: 0px;
+}
+.footer-nav-icon ul li{
+    cursor: pointer;
+    position: relative;
+    text-align: center;
+   padding-left: 30px;
+}
+.footer-nav-icon li a{
+    text-decoration: none;
+    color: black;
+    transition: .6s;
+}
+.footer-nav-icon li a:hover{
+    transform: scale(2,2);
+}
+
+@media (max-width:771px){
+    
+     .banner-text{
+        font-weight: 500px;
+        font-size: 40px;
+        display: flex;
+        word-spacing: 5px;
+     }
+     .banner-text span{
+        font-size: 50px;
+     }
+}
+@media (max-width:575px){
+    .wbox1{
+        margin-top: 100px;
+        height: 200px;
+        
+        
+        
+    }
+    .box2{
+        margin-top: 50px;
+        
+       
+    }.b1{
+      height: 200px;
+    }  
+    .b2{
+        height: 300px;
+    } 
+    .banner-head2{
+        display: flex;
+    }
+    
+}
+
+@media (max-width: 540px),(max-width:309px){
+    .banner2-img{
+        width: 100%;
+    }   
+        
+    
+    
+    .footer-logo-img,.footer-nav-icon,.footer-navs,.add{
+        width:100%;
+        justify-content: center;
+        justify-items: center;
+        display:flex ;
+        margin-left: 0px;
+       margin-right: 0px;
+    
+    }
+    .footer-navs ul li{
+        cursor: pointer;
+        padding-left: 2px;
+        text-align: center;
+       display: flex;
+       justify-content: space-around;
+       margin-left: 0px;
+       margin-right: 0px;
+        
+       
+    }
+     
+
+    
+       
+    
+    
+   
+}
+
+    
+    
+
+
+
+
+
+
+
+
+
+
+
+
+    
+   
+
+
+
+
+
+
+
+
+
+
+
+    
+    
+
+
+
+    
+
+
+
+    
+    
+    
+    
+    
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   
+   
+
+
+   
+    
+
+
+
+ 
+
+
+
+    
+
+
+ 
+
+
+  
+    
+    
+
+
+
+  
+    
+
+
+
+
+    
+
+
+    
+   
+
+    
+    
+    
+    
+    
+
+
+ 
+  
+    
+
+
+    
+
+
+    
+   

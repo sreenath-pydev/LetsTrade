@@ -1,0 +1,119 @@
+
+.about{
+    height: 900px;
+    
+    width: 100%;
+}
+
+.banner-about{
+    height: 500px;
+    background-color: blueviolet;
+    background-image: url(images/blur\ about\ banner.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.banner-about-text h1{
+    color: white;
+    padding-top:150px;
+    padding-bottom: 0px;
+    font-size: 60px;
+    font-weight: 900;
+   text-align: center;
+    font-style: initial;
+   
+    text-shadow: 1px 0px rgb(40, 40, 40);
+} 
+@media (max-width: 499px) {
+    .banner-about-text h1{
+        padding-top: 100px;
+    }
+    
+}
+.banner-about-text h5{
+    text-align: center;
+    color: white;
+    font-weight: 500px;
+    text-shadow: 1px 0px rgb(40, 40, 40);
+}  
+
+
+.about-c-head{
+    height: 400px;
+    width: 100%;
+    float: left;
+}
+.about-c-head h2{
+    padding-left: 50px;
+    padding-top: 60px;
+    font-size: 60px;
+    
+    font-weight: 700px;
+}
+.about-c-p{
+    padding-top: 60px;
+    width: 100%;
+    height: 400px;
+    float: left;
+    text-align: left;
+}
+.about-c-head hr{
+    width: 300px;
+}
+/*who we are*/
+.team-head{
+    height: 150px;
+    width: 100%;
+    justify-content: center;
+    display: flex;  
+    text-align: center;  
+}
+.team-head h2{
+    font-size: 70px;
+    font-weight:600px ;
+}   
+
+
+
+.card{
+    float: left;
+    margin: 10px 62px 10px 62px;
+    cursor: pointer;
+    transition: 1s;
+    
+    
+    
+}
+
+.main-box-div{
+    height: 600px;
+    width: 100%;
+    overflow: hidden;
+    
+}
+.card img{
+    
+    height: 300px;
+    margin-left: 0px;
+    margin-top: 0px;
+    
+}
+
+
+.card a{
+    text-decoration: none;
+    padding: 0px 20px 0px 0px;
+    color: black;
+    transition: .5s;
+
+}
+.card a:hover{
+    transform: scale(1.1,1.1);
+}
+.card:hover{
+    
+ overflow: hidden;
+    box-shadow: 0px 5px 20px black;
+}
+
+
+    

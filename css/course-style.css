@@ -1,0 +1,52 @@
+
+.coursbox-div{
+    height: 1850px;
+    border-top: 50px solid white;
+    text-align: left;
+    padding-top: 50px;
+    color:black;
+    background-color: white;
+    display: relative;
+}
+.coursbox-div ul{
+    margin-left: 30px;
+}
+.coursbox-div p{
+    text-align: left;
+    padding-left: 30px;
+    color: black;
+    padding-top: 20px;
+}
+ /*course banner-bg div page 2*/
+.coursbanner{
+    color: white;
+    height: 300px;
+    text-align: center;
+    padding-top: 60px;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    background-image: url(images/wall\ street\ blur.jpg) ;
+    background-size: cover;
+    background-position: center; 
+}
+.coursbanner h1{
+    font-weight: 900;
+    padding-top: 20px;
+    color: white;
+}
+.coursbanner p{
+    font-weight: 500;
+    color: white;
+    padding-top: 100px;
+   text-align: center;
+} 
+@media (max-width:1235px) {
+    .coursbanner p{
+        padding-top: 20px;
+        background-color: rgba(17, 17, 17, 0.306);
+    }
+    .coursbanner h1{
+        background-color: rgba(17, 17, 17, 0.306);
+    }
+}

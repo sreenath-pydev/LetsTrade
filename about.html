@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <title>beatrader</title>
+   <!--CSS-->
+    <link href="css/home-style.css" rel="stylesheet"/>
+    <link href="css/about-style.css" rel="stylesheet"/>
+    <!--BOOTSTRAP 5.3.0-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"/>
+    <!--FONT-ICON-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" /> 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/> 
+</head>
+<body>
+  <!--NAVBAR-->
+  <header>
+      <a href=""> <img src="css/images/logonewbgno.png" alt="lets trade logo" /> </a>
+
+      <nav class="navbar">
+          <div class="close-btn"><i class="fa-solid fa-xmark"></i></div>
+
+          <a href="Letstrade.html">Home </a>
+          <a href="courses.html">Course </a>
+          <a href="blog.html">Blogs </a>
+          <a href="about.html">About </a>
+          <a href="contactform.html">Contact </a>
+
+      </nav>
+      <button class="join-button"><a href="joinform.html">Join Now</a></button>
+      <div class="menu-btn"><i class="fa-solid fa-bars"></i></div>
+  </header>
+  <nav class="popup-menu ">
+
+      <li><a href="Letstrade.html">Home </a></li>
+      <li><a href="courses.html">Course </a></li>
+      <li><a href="blog.html">Blogs </a></li>
+      <li><a href="about.html">About </a></li>
+      <li> <a href="contactform.html">Contact </a></li>
+      <li><button  href="joinform.html">Join Now</button></li>
+  </nav>
+    <script>
+     const menubtn = document.querySelector('.menu-btn')
+     const menubtnicon = document.querySelector('.menu-btn i')
+     const popupmenu = document.querySelector('.popup-menu')
+
+     menubtn.onclick=function(){
+       popupmenu.classList.toggle('open')
+       let isopen=popupmenu.classList.contains('open')
+       menubtnicon.classList=isopen
+       ? 'fa-solid fa-xmark'
+       : 'fa-solid fa-bars'
+     }
+    </script>        
+      <div style="height: 80px; width: 100%;"></div>
+         <!--MAIN DIV BANNER -->
+    <div class="about">
+        <div class="banner-about col-lg-12 col-md-12 col-sm-12">
+          <div class="banner-about-text">
+          <h1>We Share Knowledge with The World</h1><br>
+          <h5>Focusing on positive growth while providing our services adds financial value to people's lives.</h5>
+          </div>
+        </div>
+        <!--DETAIL NOTES-->
+        
+          <div class="about-c-head  col-lg-6 col-md-6 col-sm-12">
+          <h2><b>Let`s<hr></b> Make<br>Your Dream Comes True</h2>
+          </div>
+
+          <div class="about-c-p col-lg-6 col-md-6 col-sm-12">
+          <p ><b>Let`s trade</b> is a comprehensive and in-depth collection of the stock market and financial lessons. One of the biggest online tools for financial education, it is available for all trading enthusiasts. We specialize in educating individuals who are motivated to become consistently productive day traders in the difficult market conditions of today. By giving you a thorough understanding of the trading process, our training program has been created to assist you in identifying the markets. We provide you with the tools required to operate in the market at a professional level, ranging from technical examination and risk management to psychological and technical skills.</p>
+           </div>
+        </div>
+      </div>
+        
+          
+          <div class="team-head col-lg-12 col-md-12 col-sm-12">
+            <h2>Meat Our Team...</h2>
+          </div>
+        <div class="main-box-div">
+           <!--box1--> 
+       
+          <div class="card col-lg-4 " style="width: 18rem;">
+            <img src="css/images/founder.jpeg" class="card-img-top" alt="sreerag">
+            <div class="card-body">
+              <h5 class="card-title">Sreerag Unni</h5>
+              <p class="card-text">Founder & Ceo</p>
+              <a href="https://www.facebook.com/Sreeragunniclt" target="blank" class="fa fa-facebook"></a>
+              <a href="#" class="fa fa-whatsapp"></a>
+              <a href="https://www.instagram.com/sreerag_u/" target="blank" class="fa fa-instagram"></a>
+            </div>
+          </div>
+        
+          <!--box2-->
+          
+          <div class="card col-lg-4" style="width: 18rem;">
+            <img src="css/images/ceo.jpeg" class="card-img-top" alt="kiran">
+            <div class="card-body">
+              <h5 class="card-title">Kiran Raj</h5>
+              <p class="card-text">Co Founder</p>
+              <a href="https://www.facebook.com/kiran.rajnanminda" target="blank" class="fa fa-facebook"></a>
+              <a href="#" class="fa fa-whatsapp"></a>
+              <a href="https://www.instagram.com/mr_ki_r_an/"  target="blank" class="fa fa-instagram"></a>
+            </div>
+          </div>
+          <!--box3-->
+          
+          <div class="card col-lg-4" style="width: 18rem;">
+            <img src="css/images/trainer.jpeg" class="card-img-top" alt="nidhin r">
+            <div class="card-body">
+              <h5 class="card-title">Nidhin R</h5>
+              <p class="card-text">Trainer</p>
+              <a href="https://www.facebook.com/" target="blank" class="fa fa-facebook"></a>
+              <a href="#" class="fa fa-whatsapp"></a>
+              <a href="https://www.instagram.com/dhin__u/" target="blank" class="fa fa-instagram"></a>
+            </div>
+          </div>
+          
+        </div>
+           
+     <!--FOOTER DIV-LOGO-->
+     <div class="col-lg-12 col-md-12 col-sm-12 footer-logo-img">
+      <img src="css/images/logonewbgno.png" alt="lets trade logo" /> 
+    </div>
+     <!--FOOTER NAVBAR -->
+   <div class="col-lg-12  col-md-12 col-sm-12 footer-navs"> 
+    <ul>
+      <li><a href="Letstrade.html">Home</a></li>
+      <li><a href="about.html">About us</a></li>
+      <li><a href="blog.html">Blogs</a></li>
+      <li><a href="#">Terms & Conditions</a></li>
+      <li> <a href="#">Privacy Policy </a></li>
+    </ul>
+   </div>     
+   <!--FOOTER SOCIAL MEDIA ICON--> 
+   <div class="col-lg-12 col-md-12 col-sm-12 footer-nav-icon ">    
+        <ul>
+          <li><a href="https://www.facebook.com/Eacademyfuture" target="-blank" class="fa fa-facebook "></a> </li>
+          <li><a href="https://www.instagram.com/eacademy_india/?igshid=YmMyMTA2M2Y%3D" target="-blank" class="fa fa-instagram"></a></li>
+          <li><a href="https://twitter.com/home" target="-blank" class="fa fa-twitter"></a></li>
+          <li><a href="https://api.whatsapp.com/send/?phone=917994971119&text&type=phone_number&app_absent=0" target="-blank"  class="fa fa-whatsapp"></a></li>
+        </ul><br>
+       </div>
+        <!--ADDRESS-->
+       <div class="col-lg-12 col-md-12 col-sm-12">
+        <h6>NV Tower, 1st floor, Kallai, Kozhikode, Kerala 673003</h6>
+      </div>
+</body>
+</html>     
+   
+ 
+        
+      
+   
+      
+   
+   
+     
+       
+   
+  
+  
+  
+    
+    
+       
+     
+     
+       
+         
+  
+         
+
+         
+
+      
+
+       
+    
+    
+    
+   
+     
+                
+          
+              
+            
+        
+        
+            
+        
+       
+   
+            
+            
+            
+            
+
+        
+
+     
+    
+        
+
+   
