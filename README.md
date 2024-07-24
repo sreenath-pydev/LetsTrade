@@ -1,11 +1,12 @@
-![screencapture-file-D-project-001-projects-LestsTrade-Letstrade-html-2024-05-21-23_21_54](https://github.com/Sreenathkk00/LetsTrade/assets/133633684/5b3a7b57-270a-43ef-b21c-f52b6bf704bc)
-![screencapture-file-D-project-001-projects-LestsTrade-blog-html-2024-05-21-23_23_00](https://github.com/Sreenathkk00/LetsTrade/assets/133633684/bf09654f-05bb-4f7e-983f-1557c7dfc031)
-![screencapture-file-D-project-001-projects-LestsTrade-about-html-2024-05-21-23_23_21](https://github.com/Sreenathkk00/LetsTrade/assets/133633684/6b3c6974-b037-42cc-b457-1ab752a032f1)
-![screencapture-file-D-project-001-projects-LestsTrade-contactform-html-2024-05-21-23_23_48](https://github.com/Sreenathkk00/LetsTrade/assets/133633684/a300aa88-3528-4444-bdb0-0788f2f041c1)
-![screencapture-file-D-project-001-projects-LestsTrade-joinform-html-2024-05-21-23_24_11](https://github.com/Sreenathkk00/LetsTrade/assets/133633684/a0f65984-970a-4654-96f7-f1c196751f08)
+# LetsTrade
 
-# LetsTrade    
-Let's Trade - Stock Market Learning Coaching Center frontend
+<img src="https://github.com/Sreenathkk00/LetsTrade/assets/133633684/5b3a7b57-270a-43ef-b21c-f52b6bf704bc" width="190px" height="200px">
+<img src="https://github.com/Sreenathkk00/LetsTrade/assets/133633684/bf09654f-05bb-4f7e-983f-1557c7dfc031" width="190px" height="200px">
+<img src="https://github.com/Sreenathkk00/LetsTrade/assets/133633684/6b3c6974-b037-42cc-b457-1ab752a032f1" width="190px" height="200px"> 
+<img src="https://github.com/Sreenathkk00/LetsTrade/assets/133633684/a300aa88-3528-4444-bdb0-0788f2f041c1" width="190px" height="200px"> 
+<img src="https://github.com/Sreenathkk00/LetsTrade/assets/133633684/a0f65984-970a-4654-96f7-f1c196751f08" width="190px" height="200px">  
+
+**Let's Trade** - Stock Market Learning Coaching Center frontend
 ## Overview
 The "Let's Trade" project is a website dedicated to providing stock market learning coaching services.
 It aims to educate individuals about stock trading, investment strategies, and market analysis
